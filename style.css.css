@@ -1,0 +1,170 @@
+* {
+    background-color: #333;
+    color: white;
+    margin: 0%;
+}
+
+header {
+    justify-content: space-between;
+    display: flex;
+    background-color: #333;
+    padding: 15px;
+    box-shadow: 4px 7px 30px #030101;
+    margin: 40px;
+    font-size: 20px;
+}
+
+header img {
+    border-radius: 100px;
+    box-shadow: 4px 7px 30px #030101;
+    margin: 20px;
+}
+
+header .Contact {
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+header .bio {
+    margin-left: 40px;
+    padding-top: 15px;
+    margin-top: 45px;
+}
+
+.competences {
+    border-bottom: solid 2px #252525;
+    padding: 20px;
+    margin: 40px;
+}
+
+.certificats {
+    margin: 40px;
+    padding: 20px;
+    border-bottom: solid 2px #252525;
+}
+
+.parcourAcademique {
+    margin: 40px;
+    border-bottom: solid 2px #252525;
+    padding: 20px;
+}
+
+.reseaux {
+    margin: 40px;
+    padding: 20px;
+
+}
+
+.parcourAcademique h2 {
+    color: cadetblue;
+    font-style: bold;
+}
+
+.certificats h2 {
+    color: cadetblue;
+    font-style: bold;
+}
+
+.competences h2 {
+    color: cadetblue;
+    font-style: bold;
+}
+
+section {
+    background-color: #333;
+    padding: 15px;
+    box-shadow: 4px 7px 30px #030101;
+    margin: 40px;
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        display: block;
+        justify-content: center;
+        font-size: 12px;
+        margin: 20px;
+        padding: 8px;
+    }
+
+    header .Contact {
+        display: none;
+    }
+
+    header img {
+        margin: 7px;
+    }
+
+    .competences {
+        padding: 10px;
+        margin: 20px;
+    }
+
+    .certificats {
+        padding: 10px;
+        margin: 20px;
+    }
+
+    .parcourAcademique {
+        padding: 10px;
+        margin: 20px;
+    }
+
+    section {
+        padding: 8px;
+        margin: 20px;
+    }
+
+    header .bio {
+        margin-left: 20px;
+        padding-top: 1px;
+    }
+
+}
+
+footer {
+    padding: 40px;
+    margin: 0px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.reseaux img {
+    border-radius: 10px;
+    margin-right: 6px;
+}
+
+.troisPremiers {
+    justify-content: space-between;
+    display: inline-block;
+    padding-right: 55px;
+    padding-top: 15px;
+}
+
+.troisDerniers {
+    justify-content: space-between;
+    display: inline-block;
+}
+
+@media screen and (max-width: 760px) {
+
+    .troisDerniers {
+        flex-direction: column;
+        margin-left: 5px; 
+        padding-right: 5px;
+    }
+
+    .troisPremiers {
+        flex-direction: column;
+        padding-right: 5px;
+    }
+
+    .reseaux {
+        margin: 20px;
+        padding: 10px;
+    }
+}
+
+h2 {
+    color: cadetblue;
+}
